@@ -1,0 +1,64 @@
+div#deleteGuy {
+  width: 90%;
+  min-height: 700px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 15px;
+  padding-top: 1px;
+  padding-bottom: 5px;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  letter-spacing: 5px;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="text"] {
+  width: 50%;
+  max-width: 800px;
+  font-size: 30px;
+  padding: 5px;
+  background-color: rgba(15, 115, 146, 0);
+  margin: 20px;
+  color: black;
+  border-color: blue;
+  border: none;
+  border-bottom: 2px solid blue;
+  text-align: center;
+}
+
+input[type="text"]::placeholder {
+  color: rgba(0, 0, 0, 0.685);
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: rgb(0, 134, 22);
+}
+
+.clas {
+  width: 100%;
+  max-width: 400px;
+}
+
+button {
+  width: 200px;
+  height: 80px;
+  font-size: 30px !important;
+  background-color: rgb(70, 70, 255) !important;
+}
+
+button#back {
+  position: fixed;
+  left: 100px;
+  bottom: 100px;
+}
+
+button#save {
+  position: fixed;
+  right: 100px;
+  bottom: 100px;
+}

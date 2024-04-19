@@ -1,0 +1,14 @@
+#pay {
+  width: 150px !important;
+  height: 70px;
+  padding: 0 !important;
+  background-color: rgb(124, 124, 248) !important;
+}
+
+#details {
+  width: 50px;
+  padding: 0 !important;
+  height: 50px;
+  border-radius: 20px;
+  background-color: rgb(85, 0, 223) !important;
+}
