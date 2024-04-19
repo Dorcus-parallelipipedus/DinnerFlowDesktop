@@ -1,0 +1,17 @@
+.dinnerbox {
+  display: block;
+  margin: auto;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.171);
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 200px;
+}
+
+.dinner {
+  width: 120px;
+  display: flex;
+  padding: 30px;
+  display: block;
+  float: left;
+}

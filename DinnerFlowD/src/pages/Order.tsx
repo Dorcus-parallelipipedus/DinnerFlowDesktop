@@ -68,7 +68,9 @@ const PersonInfo = (props: any) => (
         <button id="pay">Zrealizuj</button>
       </td>
       <td>
-        <button id="details">...</button>
+        <Link to="/orderdetails">
+          <button id="details">...</button>
+        </Link>
       </td>
     </tr>
   </>

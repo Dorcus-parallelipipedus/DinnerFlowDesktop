@@ -6,6 +6,7 @@ import { Home, List, Dinner, Demand, Order } from "./pages";
 import { EditUser } from "./pages/EditUser";
 import { CreateNewUser } from "./pages/CreateNewUser";
 import { UserHistoryInfo } from "./pages/UserHistoryInfo";
+import { OrderDetails } from "./pages/OrderDetails";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/edituser" element={<EditUser />} />
           <Route path="/createnewuser" element={<CreateNewUser />} />
           <Route path="/historyinfo" element={<UserHistoryInfo />} />
+          <Route path="/orderdetails" element={<OrderDetails />} />
         </Routes>
       </div>
     </>
